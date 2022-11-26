@@ -76,3 +76,4 @@ $obj->color = 'orange';
 echo "{$obj->name} is {$obj->color} colored" . PHP_EOL;
 if ( array_key_exists('REMOTE_ADDR', $_SERVER) )
     echo " <br>";
+    
