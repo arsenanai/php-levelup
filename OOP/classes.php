@@ -4,7 +4,7 @@ declare(strict_types=1);
 // Declaring a class
 class Fruit{
 
-    private $name, $color;
+    private String $name, $color;
 
     // public function __construct() {
     // }
@@ -76,4 +76,3 @@ $obj->color = 'orange';
 echo "{$obj->name} is {$obj->color} colored" . PHP_EOL;
 if ( array_key_exists('REMOTE_ADDR', $_SERVER) )
     echo " <br>";
-    
